@@ -1,0 +1,22 @@
+	db PRIMEAPE ; 057
+
+	db  65, 105,  60,  95,  60,  70
+	;   hp  atk  def  spd  sat  sdf
+
+	db FIGHTING, FIGHTING
+	db 75 ; catch rate
+	db 149 ; base exp
+	db NO_ITEM ; item 1
+	db NO_ITEM ; item 2
+	db 127 ; gender
+	db 100 ; unknown
+	db 20 ; step cycles to hatch
+	db 5 ; unknown
+	dn 7, 7 ; frontpic dimensions
+	db 0, 0, 0, 0 ; padding
+	db MEDIUM_FAST ; growth rate
+	dn FIELD, FIELD ; egg groups
+
+	; tmhm
+	tmhm DYNAMICPUNCH, CURSE, TOXIC, BULK_UP, HIDDEN_POWER, SUNNY_DAY, HONE_CLAWS, HYPER_BEAM, PROTECT, RAIN_DANCE, IRON_TAIL, THUNDERBOLT, THUNDER, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SWIFT, AERIAL_ACE, STONE_EDGE, REST, ATTRACT, THIEF, ROCK_SLIDE, SUBSTITUTE, BODY_SLAM, FOCUS_BLAST, ENDURE, POISON_JAB, STRENGTH, ROCK_SMASH, COUNTER, DEFENSE_CURL, DOUBLE_EDGE, FIRE_PUNCH, HEADBUTT, ICE_PUNCH, SEED_BOMB, SEISMIC_TOSS, SLEEP_TALK, SWAGGER, THUNDERPUNCH
+	; end
